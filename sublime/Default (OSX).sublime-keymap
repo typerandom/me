@@ -1,0 +1,11 @@
+[
+  {
+    "keys": [
+      "alt+space"
+    ],
+    "command": "insert",
+    "args": {
+      "characters": " "
+    }
+  }
+]
