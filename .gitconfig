@@ -1,0 +1,6 @@
+[alias]
+commit-ammend = commit -a --amend -C HEAD
+branch-name = "!git rev-parse --abbrev-ref HEAD"
+fetch-origin = "!git fetch origin $(git branch-name)"
+reset-origin = "!git reset origin/$(git branch-name) --hard"
+fetch-reset = "!git fetch-origin && git reset-origin"
